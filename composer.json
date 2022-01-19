@@ -14,9 +14,6 @@
             "role": "Developer"
         }
     ],
-    "require": {
-        "php" : "^5.5 || ^7.0"
-    },
     "autoload": {
         "psr-4": {
             "Tuupola\\": "src"
@@ -31,7 +28,9 @@
         "squizlabs/php_codesniffer": "^2.5",
         "phpunit/phpunit": "^4.8",
         "paragonie/random_compat": "^2.0",
-        "phpbench/phpbench": "^0.13.0",
-        "overtrue/phplint": "^0.2.4"
+        "phpbench/phpbench": "1.2.3",
+        "overtrue/phplint": ">=1.0",
+        "php": ">=7.3",
+        "symfony/finder": ">=4.0"
     }
 }
